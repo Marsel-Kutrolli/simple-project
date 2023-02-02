@@ -1,0 +1,475 @@
+.App {
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .body {
+    background: #F7F8FC;
+    height: 2500px;
+  }
+  /*Dashboard*/
+  .component {
+    width: 255px;
+    height: 1258px;
+    top: 125px;
+    left: -32px;
+    background: #363740;
+    border: 1px solid;
+    color: #a4a6b3;
+    text-transform: capitalize;
+  }
+  .component-side {
+    width: 255px;
+    height: 1058px;
+    right: 50px;
+    padding: 100px;
+    /* float: right; */
+    background: #dbdbe6;
+    border: 1px solid;
+    color: #a4a6b3;
+    text-transform: capitalize;
+    position: absolute;
+  }
+  .headComponents {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  .headComponents-side {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  .letterDi {
+    width: 12px;
+    height: 14px;
+    color: #ffffff;
+    background: #ffffff;
+    border-radius: 0% 50% 50% 0;
+    position: relative;
+    left: 2px;
+    top: 9px;
+    z-index: 1;
+  }
+  .elipse {
+    width: 32px;
+    height: 32px;
+    background: #3751ff;
+    border-radius: 50%;
+    position: absolute;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 18px;
+  }
+  .title {
+    width: 136px;
+    height: 24px;
+    left: -8px;
+    letter-spacing: 0.4px;
+    opacity: 0.7;
+    font-size: 17px;
+    top: 6px;
+    position: relative;
+  }
+  .title-side {
+    width: 136px;
+    height: 24px;
+    left: -15px;
+    letter-spacing: 0.4px;
+    opacity: 0.7;
+    font-size: 17px;
+    top: 6px;
+    position: relative;
+  }
+  .activeTittle {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 82px;
+    top: -60px;
+  }
+  .activeTittle-side {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 82px;
+    top: -60px;
+  }
+  .vectorActive {
+    background: #ffffff;
+    width: 3px;
+    height: 56px;
+  }
+  .vectorActive-side {
+    background: #ffffff;
+    width: 3px;
+    height: 56px;
+  }
+  .innactive {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 82px;
+    top: -35px;
+  }
+  .innactive-side {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 82px;
+    top: -35px;
+  }
+  .activeOne {
+    width: 255px;
+    height: 56px;
+    position: relative;
+    top: 55px;
+    background: #9fa2b4;
+    opacity: 0.08;
+  }
+  .activeOne-side {
+    width: 255px;
+    height: 56px;
+    position: relative;
+    top: 55px;
+    background: #9fa2b4;
+    opacity: 0.08;
+  }
+  .activeOnesd-side {
+    width: 255px;
+    height: 56px;
+    position: relative;
+    top: 55px;
+    opacity: 0.08;
+  }
+  .divider {
+    position: relative;
+    top: 370px;
+    border: 1px solid #a4a6b3;
+    opacity: 10%;
+  }
+  .divider-side {
+    position: relative;
+    border: 1px solid #a4a6b3;
+    opacity: 10%;
+  }
+  /*Card Container*/
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .text {
+    font-weight: bold;
+    margin: 8px;
+  }
+  
+  .card {
+    width: 180px;
+    height: 12px;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+    letter-spacing: 1px;
+  }
+  .cardContainer {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .twoContainers {
+    position: relative;
+    width: 220px;
+    height: 120px;
+    margin: 18px;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #dfe0eb;
+    border-radius: 18px;
+  }
+  .twoContainers:hover {
+    background: #ffffff;
+  }
+  .valueCard {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #252733;
+  }
+  .nameCard {
+    position: relative;
+    top: 10px;
+    font-size: 21px;
+    letter-spacing: 0.4px;
+    color: #9fa2b4;
+  }
+  .nameCard:hover {
+    font-size: 21.4px;
+    letter-spacing: 0.45px;
+    color: rgb(192, 192, 216);
+  }
+  .valueCard:hover {
+    font-size: 40.5px;
+    letter-spacing: 1.5px;
+    color: rgb(176, 176, 226);
+  }
+  /*All Project*/
+  .allProject {
+    display: flex;
+    background: #F7F8FC;
+  }
+  /*Header*/
+  .overview {
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+  }
+  .header {
+    width: 1050px;
+    height: 100px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    position: relative;
+    left: 30px;
+    color: #252733;
+  }
+  .user {
+    display: flex;
+    float: right;
+    position: relative;
+    width: 180px;
+    top: 30px;
+    gap: 10px;
+  }
+  .headerUerson {
+    width: 63.33px;
+    height: 43.33px;
+    border: 1px solid rgb(12, 13, 14);
+    border-radius: 50%;
+  }
+  /*HeaderCardContainer*/
+  .headerCardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  /*Chart Array*/
+  .chartArrayContainer{
+    width: 385px;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 0px 24px;
+    font-size: 14px;
+  }
+  /*Chard and the other elements*/
+  .chartAndElements{
+    display: flex;
+    border: 1px solid #ddd;
+    left: 25px;
+    top: 30px;
+    position: relative;
+    border-radius: 5px;
+  }
+  .trends{
+    font-family: "Mulish", sans-serif;
+    color: #252733;
+    letter-spacing: 0.4px;
+    font-size: 18px;
+    font-weight: 700;
+    left: 20px;
+    position: relative;
+  }
+
+  /*Part1 Part2*/
+  .part1,
+  .part2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 25px;
+    }
+    .left {
+      float: left;
+    }
+    
+    .right {
+      float: right;
+      left: 20px;
+      position: relative;
+      width: 526px;
+      height: 336px;
+      border-radius: 8px;
+      background-color: white;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+    
+    .left {
+      width: 526px;
+      height: 336px;
+      border-radius: 8px;
+      background-color: white;
+      overflow: hidden;
+      border: 1px solid #ddd;
+      left: 15px;
+      position: relative;
+    }
+    button {
+      border: 0;
+      border-radius: 5px;
+      padding: 0px 15px;
+      height: 30px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    .lineNumber {
+      color: #9fa2b4;
+    }
+    .left1 {
+      width: 50%;
+      display: inline;
+      float: left;
+      margin: 0;
+      height: 100px;
+      padding-left: 25px;
+    }
+    
+    .right1 {
+      width: 40%;
+      display: inline;
+      float: right;
+      margin: 0;
+      height: 100px;
+      text-align: right;
+      padding-right: 25px;
+      color: blue;
+    }
+    .part1Part2{
+      top: 120px;
+      position: relative;
+    }
+    .textLeftUnderTitle, 
+    .textRightUnderTitle{
+      color: #c5c7cd;
+      letter-spacing: 0.2px;
+      position: relative;
+      top: -10px;
+    }
+    /*Second Page*/
+    .secondPageAll{
+      position: relative;
+      margin-top: 150px;
+      background: #F7F8FC;
+      display: flex;
+    }
+    .allData{
+      display: flex;
+      flex-direction: column;
+    }
+
+    /*Page2 */
+.tickets{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    position: relative;
+    background: #FFFFFF;
+    letter-spacing: 0.2px;
+    color: #252733;
+  }
+  .tickConta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 800px;
+  }
+.radio2{
+  line-height: 20px;
+}
+
+.ticketName{
+  position: relative;
+  display: flex;
+  line-height: 20px;
+  top: 10px;
+  width: 400px;
+}
+.tickets2Name{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  width: 220px;
+  left: 50px;
+}
+.ticket2button{
+  position: relative;
+  top: 24px;
+  justify-content: space-between;
+}
+.ticketTitle{
+  width: 900px;
+  position: relative;
+  left: 60px;
+  display: flex;
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 0.2px;
+  color: #9FA2B4;
+}
+.cN{
+  position: relative;
+  left: 310px;
+}
+.dt{
+  position: relative;
+  left: 410px;
+}
+.pr{
+  position: relative;
+  left: 645px;
+}
+.secTitle{
+  font-family: 'Mulish', sans-serif;
+  position: relative;
+  left: 50px;
+  color: #252733;
+}
+.allTicketsSecond{
+  border: 1px solid #ddd;
+  position: relative;
+  left: 20px;
+  border-radius: 8px;
+}
